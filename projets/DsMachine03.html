@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Killian Demeillers">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="This is my portfolio website">
+	<meta name="keywords" content="portfolio, web development, HTML, CSS">
+	<title>Portfolio Killian Demeillers</title>
+	<link rel="stylesheet" href="../styles.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+	<header>
+		<nav class="navbar">
+			<ul>
+				<li class="home">
+					<a href="../Accueil.html">
+						<span class="material-symbols-rounded">home</span>
+					</a>
+				</li>
+					
+				<div class="toutsaufhome">
+					<li class="dropdown">
+						<a href="#" class="dropbtn">Mes Projets</a>
+						<div class="dropdown-content">
+							<a href="./DsMachine03.html">Ds Machine N°03</a>
+							<a href="./Sae1.01.html">Sae 1.01</a>
+							<a href="#">Option 3</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropbtn">Mes Compétences</a>
+						<div class="competences" >
+							<a class="comp1" href="../competences/Competence1.html">Compétence 1</a>
+							<a class="comp3" href="../competences/Competence3.html">Compétence 3</a>
+							<a class="comp4" href="../competences/Competence4.html">Compétence 4</a>
+							<a class="comp6" href="../competences/Competence6.html">Compétence 6</a>
+						</div>
+					</li>
+				</div>				
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div class="prt-image">
+			<img src="../images/dsmachine3.png" alt="D'argile et de Bois">
+		</div>
+
+		<h3>Compétences associées</h3>
+		<ul class="comp-assos">
+			<li><a class="c1" href="../competences/Competence1.html">Compétence 1 : Réaliser un Développement d'application</a></li>
+		</ul>
+
+		<h3>Description</h3>
+		<p>Le DS Machine N°3 : D'argile et de Bois était un DS dans lequel nous avions d'abord amélioré un diagramme de classe (Diagramme UML), 
+		pour finalement l'implémenter sur une machine.<br>
+		Le sujet était un jeu de plateau composé de tuiles qui pouvaient être achetées par les joueurs, avec certains types comme des tuiles usine qui servaient à transformer des matières premières en argent
+		ou même des tuiles production qui permettaient de produire de la matière première. Nous ne sommes pas allés plus loin que ça dans le jeu.<br>
+		Le DS était en 2 parties :</p>
+		
+		<h3>Partie 1</h3>
+		<p>Nous partions de ce diagramme de classe :</p>
+		<img src="../images/UmlAvant.png" alt="Diagramme de classe du DS Machine N°3 avant modification">
+		<p><br>Et nous avons modifier pour enlever les répétitions et nous sommes arrivé à ceci :</p>
+		<img src="../images/UmlApres.png" alt="Diagramme de classe du DS Machine N°3 après modification">
+
+		<h3>Partie 2</h3>
+		<p>La deuxième partie consistait à implémenter ce diagramme de classe sur une machine, en utilisant le langage de programmation Java. <br>
+			dont voici un exemple :</p>
+		<div class="implementer">
+			<img class="exp" src="../images/codeds3.png" alt="Le code du diagramme">
+			<img class="exp" src="../images/umlZoom.png" alt="exemple du diagramme">
+		</div>
+		
+
+	</main>
+
+	<footer>
+		<p>&copy; 2024 - Killian Demeillers</p>
+	</footer>
+</body>
+</html>
